@@ -16,7 +16,6 @@ export const productListSlice = createSlice({
         },
         onLoggedIn: (state) => {
             state.isLoggedIn = true
-            console.log("------", state.isLoggedIn);
         },
     }
 })

@@ -14,8 +14,6 @@ export const useHomeHooks = (): homeHookProps => {
     const productStore = useSelector((store: any) => store.productList)
     const { productList } = productStore
 
-    console.log("====", productList);
-
 
     useEffect(() => {
         if (isFocused) {
